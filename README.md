@@ -1,7 +1,7 @@
 ASSIGNMENT:
 
-You must have a minimum of 10 objects in this time capsule:  
-	
+You must have a minimum of 10 objects in this time capsule:
+
  - Include 3 objects that symbolically represent the characters in the text and 3 objects that represent the thematic idea of the text.  
 	
  - Include 4 objects that relate to or symbolize the plot events and setting.  
