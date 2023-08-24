@@ -1,0 +1,201 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+}
+
+body, html
+{
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+
+#bg-image
+{
+    background-image: url("images/field.jpeg");
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overlay
+{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+#heading 
+{
+    text-align: center;
+    font-size: xx-large;
+    margin: 0 auto 10px auto;
+    padding: 30px;
+    background-color: #d8b8f2; 
+    text-decoration-style: solid; 
+    color: black;
+}
+
+#canvas
+{
+    background: #bababa; 
+    display: block; 
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+#c
+{
+    display: block;
+    margin: 20px auto; 
+    text-align: center;
+    font-size: large;
+    color: #F8F8F8; 
+}
+
+#wrapper
+{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#maze p
+{
+    text-align: center;
+    margin: 20px;
+    color: #F8F8F8;
+}
+
+#demo
+{
+    cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 3; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.7);
+}
+
+#myWinningModal
+{
+    padding-top: 20%; /* Location of the box */
+}
+
+#myItemModal
+{
+    padding-top: 10%; /* Location of the box */
+}
+
+/* Modal Content */
+.modal-content 
+{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop 
+{
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop 
+{
+    from 
+    {
+        top:-300px; 
+        opacity:0
+    }
+    
+    to 
+    {
+        top:0; opacity:1
+    }
+}
+
+/* The Close Button */
+.close 
+{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header 
+{
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+#myItemModal .modal-header
+{
+    background-color: #7f6b8c;
+}
+
+#myWinningModal .modal-header
+{
+    background-color: #a3a3a3;
+}
+
+.modal-footer 
+{
+    padding: 20px;
+    background-color: #7f6b8c;
+    color: white;
+    text-align: center;
+    height: 50%;
+}
+
+#img
+{
+    width: 400px;
+    padding-bottom: 10px;
+}
+
+.gameheadwin
+{
+    width: 90%;
+    margin: auto;
+}
