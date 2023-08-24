@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Preventia | Journal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="scripts.js"></script>
+        <link rel="icon" href="images/smallLogo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body onscroll="scrollFunction()" onresize="factHeight()" onload="factHeight()">
+        <nav>
+            <div class="left-side">
+                <a href="index.html" class="logo"><img src="images/whiteLogo.png" alt="logo"></a>
+            </div>
+
+            <div class="right-side">
+                <!-- Right-sided navbar links -->
+                <div class="right hide-small">
+
+                    <div id = "myNav" class="nav-link-wrapper overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <div class="overlay-content">
+
+                            <hr>
+
+                            <a href="index.html" class="link">HOME</a>
+
+                            <hr>
+
+                            <a href="threeWordMemory.html" class="link">3 WORDS</a>
+
+                            <hr>
+
+                            <a href="anagrams.html" class="link">ANAGRAMS</a>
+
+                            <hr>
+
+                            <a href="memoryMatch.html" class="link">MEMORY MATCH</a>
+
+                            <hr>
+
+                            <a href="journal.html" class="link active-link">JOURNAL</a>
+
+                            <hr>
+
+                        </div>
+
+                    </div>
+
+                    <a href="javascript:void(0)" class="menu" onclick="openNav()">&#9776;</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Journal</h1>
+                </div>
+            </div>
+
+            <div class="main-wrapper">
+                <div class="journal-textarea">
+                    <h2>What is the Journal?</h2>
+                    <p>
+                        You can use the journal to keep track of your daily ideas and routines. Everyday, come here and write what you did so that you can read back on it in the later days.
+                    </p>
+                    
+                    <p>
+                        Click "open" to open your journal, see what you did earlier in the week, and begin to write. Click "close" when you are done journaling. Click "save" along the way to save your work.
+                    </p>
+                    
+                    <span>
+                        <button id="open-button" onclick="openJournal()">OPEN</button>
+                    </span>
+                    
+                    <span>
+                        <button id="close-button" onclick="closeJournal()">CLOSE</button>
+                    </span>
+                    
+                    <span>
+                        <button id="save-button" onclick="saveJournal()">SAVE</button>
+                    </span>
+
+                    <form>
+                       <br>
+                       <label><b>Sunday:</b></label>
+                       <br>
+                       <textarea id ="sunday-input" disabled="disabled"></textarea>
+                       <br>
+
+                       <br>
+                       <label><b>Monday:</b></label>
+                       <br>
+                       <textarea id ="monday-input" disabled="disabled"></textarea>
+                       <br>
+
+                       <br>
+                       <label><b>Tuesday:</b></label>
+                       <br>
+                       <textarea id ="tuesday-input" disabled="disabled"></textarea>
+                       <br>
+
+                       <br>
+                       <label><b>Wednesday:</b></label>
+                       <br>
+                       <textarea id ="wednesday-input" disabled="disabled"></textarea>
+                       <br>
+
+                       <br>
+                       <label><b>Thursday:</b></label>
+                       <br>
+                       <textarea id ="thursday-input" disabled="disabled"></textarea>
+                       <br>
+
+                       <br>
+                       <label><b>Friday:</b></label>
+                       <br>
+                       <textarea id ="friday-input" disabled="disabled"></textarea>
+                       <br>
+
+                       <br>
+                       <label><b>Saturday:</b></label>
+                       <br>
+                       <textarea id ="saturday-input" disabled="disabled"></textarea>
+                       <br>
+                   </form>
+                </div>
+            </div>
+
+            <footer>
+                <h3>Email Us</h3>
+
+                <div class="footer-item">
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:nithyaarun04@gmail.com">nithyaarun04@gmail.com</a>
+                </div>
+
+                <div class="footer-item">
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:nitya.babbar@gmail.com">nitya.babbar@gmail.com</a>
+                </div>
+            </footer>
+
+            <div class="copyright-footer">
+                <p>Copyright &#169; 2021 Preventia. All rights reserved.</p>
+            </div>
+        </main>
+    </body>
+</html>

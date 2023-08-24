@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Preventia | 3 Words</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="scripts.js"></script>
+        <link rel="icon" href="images/smallLogo.png">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body onscroll="scrollFunction()" onresize="factHeight()" onload="factHeight()">
+        <nav>
+            <div class="left-side">
+                <a href="index.html" class="logo"><img src="images/whiteLogo.png" alt="logo"></a>
+            </div>
+
+            <div class="right-side">
+                <!-- Right-sided navbar links -->
+                <div class="right hide-small">
+
+                    <div id = "myNav" class="nav-link-wrapper overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <div class="overlay-content">
+
+                            <hr>
+
+                            <a href="index.html" class="link">HOME</a>
+
+                            <hr>
+
+                            <a href="threeWordMemory.html" class="link active-link">3 WORDS</a>
+
+                            <hr>
+
+                            <a href="anagrams.html" class="link">ANAGRAMS</a>
+
+                            <hr>
+
+                            <a href="memoryMatch.html" class="link">MEMORY MATCH</a>
+
+                            <hr>
+
+                            <a href="journal.html" class="link">JOURNAL</a>
+
+                            <hr>
+
+                        </div>
+
+                    </div>
+
+                    <a href="javascript:void(0)" class="menu" onclick="openNav()">&#9776;</a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Remember 3 Words</h1>
+                </div>
+            </div>
+
+            <div class="main-wrapper"> 
+                <h2>Rules</h2>
+
+                <p>
+                    You will be given 3 words to remember. You will then have to play a tic-tac-toe game. Once the game is over, you will be asked to type in the 3 words again. You will have five chances to get them correct, so be careful!
+                </p>
+
+                <p>
+                    To start, click "Get 3 Words" to receive your words. If you would like new words, click "New Words". Once you have analyzed your words, click "Done Looking at Words" to play tic-tac-toe. Once the game is over, you may select "Done Tic-Tac-Toe" to attempt to re-enter the words given to you. If you would like to play again, or restart, you may then click the restart button.
+                </p>
+
+                <div class="game-wrapper threeWords">
+                    <div class="game-header">
+                        <div class="header-item-two">
+                            <button onclick="startThreeWords()" id="startwordsbtn">GET 3 WORDS</button>
+                        </div>
+
+                        <div class="header-item-two">
+                            <button onclick="playThreeWords()" id="donewordsbtn">DONE LOOKING AT WORDS</button>
+                        </div>
+
+                        <div class="header-item-two">
+                            <button onclick="giveThreeWords()" id="donetttbtn">DONE TIC-TAC-TOE</button>
+                        </div>
+                    </div>
+
+                    <div id="threeWords">
+                        <p id="threeWordMem"></p>
+                    </div>
+
+                    <div id="inputs"></div>
+
+                    <div id="tictactoe-board">
+                        <table border="1">
+                            <tr>
+                                <td id='one1' onClick="play(this)"></td>
+                                
+                                <td id='one2' onClick="play(this)"></td>
+                                
+                                <td id='one3' onClick="play(this)" ></td>
+                            </tr>
+                            <tr>
+                                <td id='two1' onClick="play(this)"></td>
+                                <td id='two2' onClick="play(this)"></td>
+                                <td id='two3' onClick="play(this)"></td>
+                            </tr>
+                            <tr>
+                                <td id='three1' onClick="play(this)"></td>
+                                
+                                <td id='three2' onClick="play(this)"></td>
+                                
+                                <td id='three3' onClick="play(this)"></td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <form id="inputMem" autocomplete="off" onsubmit="return false">
+                        <span><input id="enter-word" type="text"></span>
+                        <span><input type="submit" value="Enter" onclick="enterThreeWords()"></span>
+                    </form>
+
+                </div>
+            </div>
+
+            <footer>
+                <h3>Email Us</h3>
+                <div class="footer-item">
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:nithyaarun04@gmail.com">nithyaarun04@gmail.com</a>
+                </div>
+
+                <div class="footer-item">
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:nitya.babbar@gmail.com">nitya.babbar@gmail.com</a>
+                </div>
+            </footer>
+
+            <div class="copyright-footer">
+                <p>Copyright &#169; 2021 Preventia. All rights reserved.</p>
+            </div>
+        </main>
+    </body>
+</html>
