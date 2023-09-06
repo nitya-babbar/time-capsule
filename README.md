@@ -26,7 +26,7 @@ A written form of your speaking portion must be provided in proper MLA formattin
 
 SUBMISSION:
 
-Time Capsule:
+"The Color Purple" Time Capsule:
 
 This tree symbolically represents Celie at the beginning of the novel. She is abused so much by her father that she learned to cope with it by pretending she cannot feel anything: “I make myself wood. I say to myself, Celie, you a tree” (Walker 60). Once she gets married, she also states that this woodenness that she developed prevents her from feeling any love for Mr. ____’s children: “I don’t feel nothing for them. Patting Harpo … more like patting another piece of wood” (Walker 69).
 
