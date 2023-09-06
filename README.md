@@ -12,8 +12,6 @@ The time capsule can be an actual time capsule with objects or can be a virtual 
 	
  - The objects inside the time capsule must be appropriate for school. 
 	
- - If you print images out from the Internet, you must cite where you retrieved the image from. Use proper MLA format. Search “OWL purdue MLA” on google if you need help. 
-
 Write a well crafted, organized reflection justifying why you chose the objects that you did.
 
  - Each item should have a 2-3 sentence explanation about its role in the story and why it was an essential part of the time capsule. This is what will be explained in the Speaking portion of the assignment.
@@ -21,8 +19,6 @@ Write a well crafted, organized reflection justifying why you chose the objects 
  - You must explain why your objects relate to the thematic idea and characters in connection with your text.
 
  - You must explain why your objects relate to the plot events and setting.
-
-A written form of your speaking portion must be provided in proper MLA formatting
 
 SUBMISSION:
 
