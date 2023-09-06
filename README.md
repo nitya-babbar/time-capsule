@@ -14,7 +14,7 @@ The time capsule can be an actual time capsule with objects or can be a virtual 
 	
 Write a well crafted, organized reflection justifying why you chose the objects that you did.
 
- - Each item should have a 2-3 sentence explanation about its role in the story and why it was an essential part of the time capsule. This is what will be explained in the Speaking portion of the assignment.
+ - Each item should have a 2-3 sentence explanation about its role in the story and why it was an essential part of the time capsule.
 
  - You must explain why your objects relate to the thematic idea and characters in connection with your text.
 
