@@ -1,4 +1,4 @@
-ASSIGNMENT:
+**Assignment:**
 
 You must have a minimum of 10 objects in this time capsule:
 
@@ -20,7 +20,7 @@ Write a well crafted, organized reflection justifying why you chose the objects 
 
  - You must explain why your objects relate to the plot events and setting.
 
-SUBMISSION:
+**Submission:**
 
 *The Color Purple* Time Capsule:
 
